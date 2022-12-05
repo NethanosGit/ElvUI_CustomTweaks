@@ -40,6 +40,7 @@ local Tweaks = {
 		{"AuraIconSpacing", L["Allows you to set a spacing between individual aura icons for the units you choose."]},
 		{"CastbarText", L["Allows you to position and change color and alpha of castbar text."]},
 		{"PowerBarTexture", L["Allows you to use a separate texture for unitframe power bars."]},
+		{"SecondaryHealthBarTexture", L["Allows you to use a separate texture for Target/ToT bars."]},
 		{"UnitFrameSpacingLimits", L["Increases the maximum allowed vertical and horizontal spacing for party and raid frames."]},
 		{"CastbarFont", L["Allows you to change the text and duration font for the castbar."]},
 	},
@@ -48,6 +49,9 @@ local Tweaks = {
 local Authors = {
 	{"Benik", {
 		"PowerBarTexture",
+	}},
+	{"Nethanos", {
+		"SecondaryHealthBarTexture",
 	}},
 	{"Blazeflack", {
 		"AuraIconSpacing",
