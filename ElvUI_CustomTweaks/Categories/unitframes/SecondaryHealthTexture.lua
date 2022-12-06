@@ -34,7 +34,7 @@ CT.Configs["SecondaryHealthBarTexture"] = ConfigTable
 if not isEnabled then return; end
 
 local function UpdateStatusBars(_, frame)
-    if frame.unitframeType == "target" or frame.unitframeType == "targettarget" then
+    if frame.unitframeType == "target" or frame.unitframeType == "targettarget" or frame.unitframeType == "boss" or frame.unitframeType == "arena" then
         local statusBarTexture = LSM:Fetch("statusbar", E.db.CustomTweaks.SecondaryHealthBarTexture.secondaryhealthstatusbar)
 	    local health = frame.Health
 		if health == nil then
